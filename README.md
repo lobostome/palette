@@ -1,2 +1,3 @@
 palette
 =======
+JavaScript color palette

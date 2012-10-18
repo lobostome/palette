@@ -145,8 +145,6 @@ var Palette = (function() {
             toggleSignal.dispatch();
         }
         
-        console.log(options.change());
-        
         if(options.change() === 'noop') {
             changeSignal.add(function(){
                 alert('Selected color: ' + currentColor);
